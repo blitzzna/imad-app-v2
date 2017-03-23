@@ -17,7 +17,7 @@ button.onclick=function(){
         }
     };
     
-    request.open('GET','http://http://blitzzna.imad.hasura-app.io/counter',true);
+    request.open('GET','http://blitzzna.imad.hasura-app.io/counter',true);
     request.send(null);
     
 };
