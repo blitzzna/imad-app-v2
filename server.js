@@ -34,8 +34,8 @@ function hash(inputstring,salt)
 //db connection
 var Pool = require('pg').Pool;
 var config = {
-    user: 'sattybhatt',
-    database:'sattybhatt',
+    user:'blitzzna',
+    database:'blitzzna',
     host:'db.imad.hasura-app.io',
     port:'5432',
     password:process.env.DB_PASSWORD
