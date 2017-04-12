@@ -1,4 +1,4 @@
-<style>
+
 body{
 margin: 0;
 font-family: lato; 
@@ -23,4 +23,3 @@ position: relative; width:85px; display: inline-block; vertical-align: middle;
 .incenter{
 position: relative; top:50%; left:50%; transform: translate( -50% , -50% );
 }
-</style>
