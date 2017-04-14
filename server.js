@@ -113,7 +113,7 @@ app.get('/check-login',function(req,res)
 app.get('/logout',function(req,res)
 {
     delete req.session.auth.userid;
-    res.send('Logged out');
+    res.send('<h1>Logged out</h1><br/><h5><a href="/">Goto Home Page</a></h5>');
 });
 //end here
 function hello(ob1)
